@@ -227,5 +227,5 @@ class Handler(BaseHTTPRequestHandler):
 if __name__ == '__main__':
     init_db()
     server = HTTPServer(('0.0.0.0', HTTP_PORT), Handler)
-    print(f"Prvtspyyy Manager running on port {HTTP_PORT}")
+    print(f"Manager running on port {HTTP_PORT}")
     server.serve_forever()
